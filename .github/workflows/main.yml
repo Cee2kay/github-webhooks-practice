@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: Ceekay99/github-webhooks-practice@v1.1
+        uses: Ceekay99/github-webhooks-practice@v1.0
         with:
           who-to-greet: 'Cee2kay'
       # Use the output from the `hello` step
